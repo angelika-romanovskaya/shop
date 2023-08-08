@@ -6,7 +6,7 @@ const Footer = function() {
         footerElem.innerHTML = `
             <div class="content">
                 <a class="footer__logo" href="#">
-                    <img src="../../src/logo-social.png">
+                    <img src="./src/logo-social.png">
                 </a>
                 <ul class="footer__info">
                     <li>+375 00 000 00 00</li>
