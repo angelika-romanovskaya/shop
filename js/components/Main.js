@@ -32,7 +32,7 @@ const Main = function() {
                             width:150px; 
                             height: 30px;
                             background: linear-gradient(0.25turn, yellow ${product.rating.rate*100/5}%, #ccc 0);">
-                    <img class="product-card__stars_template" src="../../src/stars_template.png">
+                    <img class="product-card__stars_template" src="./src/stars_template.png">
                 </div>
                 <span class="product-card__info_rating">${product.rating.rate}</span>
             </div>

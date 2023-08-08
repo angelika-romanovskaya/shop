@@ -6,7 +6,6 @@ const Nav = function(categories) {
         let navElem = document.createElement('ul');
         navElem.classList.add('nav');
         navElem.addEventListener('mouseover', (event) => {
-            //console.log(event);
             Array.from(event.target.closest('ul').children)
             .forEach(elem => {
                 if(!elem.classList.contains('active'))

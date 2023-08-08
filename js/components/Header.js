@@ -9,7 +9,7 @@ const Header = function() {
         headerElem.innerHTML = `
             <div class="content">
             <a class="header_logo"  href="">
-                <img src="../../src/logo-social.png">
+                <img src="./src/logo-social.png">
             </a>
             <a class="cart" href="#cart">
                 <span class="cart_count"> ${this.cartItems}<span>
